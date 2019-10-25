@@ -79,7 +79,7 @@ server.put('/projects/:id', checkId, countReq, (req,res) => {
 	const {title} = req.body;	// Através de JSON
 
 	// Precisa buscar o projeto através do id
-	const project = projects.find(p=>p.id == id); // Identifica se no projeto tem o id correspondente
+	const project = projects.find(p=>p.id == id);
 	project.title = title; // Substitui o título do projeto, pelo novo título obtido através do JSON
 
 	return res.json(project); // Retorna o novo objeto
