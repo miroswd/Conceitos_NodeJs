@@ -1,5 +1,9 @@
 <h1>Desafio 01 - Conceitos NodeJS</h1>
-<h4>Aplicação que armazena projetos e suas tarefas</h4>
+<p>
+  Esse é o primeiro desafio do curso Bootcamp da Rocketseat.</br>
+  Um exercício de fixação do conteúdo de NodeJS.</br>
+  Desenvolvida uma aplicação que armazena projetos e tarefas.
+</p>
 
 <h2>Tecnologias utilizadas</h2>
 <ul>
